@@ -7,11 +7,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
-import lombok.RequiredArgsConstructor;
 
 @Entity
 @Table(name = "files", schema = "public")
-@RequiredArgsConstructor
 public class FileDB {
 
 	@Id
